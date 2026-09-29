@@ -76,3 +76,5 @@ Resend variables in `.env.example` are optional. The live booking form sends enq
 - Do not commit `.env.local`
 - Keep testimonials and client lists out of the site unless Amit has approved them
 - Large MP4s in `public/videos/` will affect clone and deploy size; compress or host on a CDN later if needed
+
+Deployed with Vercel
