@@ -1,3 +1,4 @@
+import { resolvePublicSiteUrl } from "@/lib/site-url";
 import type { SiteContent } from "./types";
 
 /**
@@ -250,7 +251,7 @@ export const site: SiteContent = {
   testimonials: [],
   milestones: [],
   seo: {
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+    siteUrl: resolvePublicSiteUrl(),
     titleDefault: "Amit Yadav — Stage Host, Anchor & Presenter | Delhi",
     descriptionDefault:
       "Amit Yadav is a Delhi-based bilingual stage host, anchor and presenter working in English and Hindi. Available for events across India.",

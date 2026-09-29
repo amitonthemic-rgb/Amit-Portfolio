@@ -2,7 +2,9 @@
 
 Personal site for Amit Yadav, a Delhi-based stage host, anchor and presenter working in English and Hindi.
 
-Built with Next.js. Booking enquiries open WhatsApp with the form details filled in. Deployed target: Vercel.
+Built with Next.js. Booking enquiries open WhatsApp with the form details filled in.
+
+**Live:** [https://amit-portfolio-omega-taupe.vercel.app](https://amit-portfolio-omega-taupe.vercel.app)
 
 ## Requirements
 
@@ -68,8 +70,8 @@ Resend variables in `.env.example` are optional. The live booking form sends enq
 
 1. Push the repo to GitHub
 2. Import the project in [Vercel](https://vercel.com)
-3. Set `NEXT_PUBLIC_SITE_URL` to `https://your-domain.com`
-4. Connect the custom domain in the Vercel project settings
+3. Set `NEXT_PUBLIC_SITE_URL` to `https://amit-portfolio-omega-taupe.vercel.app` (or your custom domain later)
+4. Optional: connect a custom domain in the Vercel project settings
 
 ## Notes
 
